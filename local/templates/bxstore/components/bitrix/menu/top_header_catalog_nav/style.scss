@@ -1,0 +1,19 @@
+.top_header_catalog_nav {
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    li {
+      a {
+        display: block;
+        padding: 0px 15px;
+        color: #ffffff;
+      }
+
+      ul {
+        display: none;
+      }
+    }
+  }
+}

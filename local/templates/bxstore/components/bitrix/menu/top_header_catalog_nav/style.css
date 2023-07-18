@@ -1,0 +1,16 @@
+.top_header_catalog_nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.top_header_catalog_nav ul li a {
+  display: block;
+  padding: 0px 15px;
+  color: #ffffff;
+}
+.top_header_catalog_nav ul li ul {
+  display: none;
+}
+
+/*# sourceMappingURL=style.css.map */
