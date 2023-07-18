@@ -1,0 +1,48 @@
+:root {
+  --c1: #262A30;
+  --c2: #FCFBF8;
+}
+
+body {
+  font-family: "Roboto";
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--c1);
+}
+
+.top_header {
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: var(--c1);
+}
+.top_header_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.top_header_content_phone {
+  display: flex;
+}
+.top_header_content_phone a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.top_header_content_phone button {
+  background: none;
+  color: #ccc;
+  padding: 0;
+  border: none;
+}
+.top_header_content_user {
+  display: flex;
+  width: 90px;
+  justify-content: space-between;
+  margin-left: 20px;
+}
+.top_header_content_user a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=template_styles.css.map */
